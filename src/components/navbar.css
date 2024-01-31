@@ -1,0 +1,67 @@
+.navbar-main {
+  /* border: solid black 2px; */
+  height: 5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-logo-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+.navbar-logo-image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+}
+.navbar-website-name {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 0.5rem;
+}
+.navbar-city-search {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  gap: 0;
+}
+
+.navbar-input-box-1 {
+  width: 15rem;
+  height: 3rem;
+
+  border-radius: 0.5rem;
+  font-size: large;
+  border: solid black 2px;
+  box-shadow: 0 0 4px 4px;
+  /* padding: 1rem; */
+  margin-right: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar-input-box-2 {
+  width: 15rem;
+  height: 3rem;
+  color: black;
+  border-radius: 0.5rem;
+  font-size: large;
+  border: solid black 1px;
+  box-shadow: 0 0 4px 4px;
+  /* padding: 1rem; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 1rem;
+}
+.search-button {
+  width: 5rem;
+  height: 3rem;
+  box-shadow: 0 0 1px 1px;
+  border: solid black 1px;
+  border-radius: 0.5rem;
+  font-size: large;
+}

@@ -1,0 +1,53 @@
+.body2 {
+  width: 100%;
+  background-color: rgb(239, 239, 239);
+  border-radius: 1rem;
+  /* border: solid black 1px; */
+  /* margin-right: 1rem; */
+}
+.body-main-2 {
+  /* border: solid black 1px; */
+  margin-right: 2rem;
+}
+.cities {
+  /* border: solid red 2px; */
+  height: 5rem;
+  padding: 2rem 0 0 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.boxes {
+  flex-wrap: wrap;
+  padding: 1rem;
+  /* border: solid purple 1px; */
+}
+.row {
+  justify-content: space-between;
+  display: flex;
+}
+.box {
+  /* border: solid pink 1px; */
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+  width: 27%;
+  height: 10rem;
+  background-color: rgb(121, 139, 234);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(248, 232, 232);
+}
+
+.extra {
+  /* border: solid blue 1px; */
+  height: 4rem;
+  padding: 2rem 0 0 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  font-size: 1.2rem;
+}
+.linkToSource {
+  text-decoration: none;
+  margin-left: 4px;
+}
